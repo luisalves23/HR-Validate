@@ -1,0 +1,61 @@
+/* Estilos gerais da página */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  transition: background-color 0.5s ease;
+}
+
+/* Container principal */
+.container {
+  width: 80%;
+  max-width: 600px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  text-align: center;
+}
+
+/* Estilo do vídeo (câmera) */
+.video-box {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #ddd;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+video {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Estilo da caixa flutuante */
+.flutuante {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #e8f4fd;
+  border-radius: 10px;
+  font-size: 18px;
+  color: #003d5b;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  width: 80%;
+  max-width: 500px;
+}
+
+/* Título */
+h1 {
+  color: #003d5b;
+  margin-bottom: 20px;
+}
